@@ -1,0 +1,105 @@
+.navbar {
+    font-family: 'Gentium Book Plus', serif;
+    font-size: larger;
+    background-color:#FFE5F1;
+}
+.body{
+    background-color: #fff;
+}
+.text, h5,.display-5{
+    font-family: 'Gentium Book Plus', serif;
+    font-size:x-large;
+}
+.btn{
+    background-color: #e7dcf9; 
+}
+
+.sales, .price{
+    font-family: 'Gentium Book Plus', serif;
+    font-size:xx-large;
+    color: red;
+}
+
+.instagram{
+    background-color: #e7dcf9;
+}
+
+.image {
+    height: auto;
+    width: auto;
+    
+}
+
+.fancy-button {
+    background-image: repeating-linear-gradient(90deg,#8dfeea,#fff390 11%,#b3e3f5 22%,#cbecfa 31%,#ffe1fb 41%,#a5ccf9 57%,#ff9de6 74%,#fbaf9c 88%,#8dfeea);
+    background-size: 200% 100%;
+    animation: fancy-button-gradient 6s linear infinite;
+    padding: 16px 40px;
+    position: relative;
+}
+
+.button {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 1.4;
+    font-family: SuisseIntlBook,sans-serif;
+    padding: 16px 30px;
+    line-height: 1;
+    cursor: pointer;
+    border: 1px solid #241e36;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fff;
+    transition: background-color .1s;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.card-header{
+    background-color:#FFE5F1;
+}
+.work {
+    background-color: #FFE5F1;
+}
+#myVideo{
+    width:100%;
+}
+
+@media all and (max-width:1900px) {
+    iframe{
+        width:1560px;
+    }
+}
+@media all and (max-width:1400px) {
+    iframe{
+        width:1270px;
+      
+    }
+   .work {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:900px) {
+    iframe{
+        width:810px;
+    }
+}
+@media all and (max-width:500px) {
+        iframe{
+            width:410px;
+        }
+    }
+
+@media all and (max-width:400px) {
+            iframe{
+                width: 375px;
+            }
+    }
+
+
+
+
+
+
